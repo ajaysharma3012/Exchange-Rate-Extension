@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="popup.js"></script>
+</head>
+<body>
+    <h1>Currency Exchange</h1>
+    <label for="fromCurrency">From Currency:</label>
+    <select id="fromCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="INR">INR</option>
+        <!-- Add more currency options here -->
+    </select>
+    <br>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" min="1" step="1" value="1">
+    <br>
+    <label for="toCurrency">To Currency:</label>
+    <select id="toCurrency">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="INR">INR</option>
+        <!-- Add more currency options here -->
+    </select>
+    <br>
+    <button id="convertButton">Convert</button>
+    <p id="result"></p>
+</body>
+</html>
+
